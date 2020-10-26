@@ -19,15 +19,23 @@ html {
     padding: 5px;
 }
 
+
+
+
 /*Mobile first style and layout*/
 
 /*Header and navigation*/
+
+
+
 .search_form {
     display: none;
+    
 }
 
 .mobile_search_form {
     display: flex;
+    margin: .5rem;
 }
 
 .mobile_search_input {
@@ -38,7 +46,7 @@ html {
 
 .logo_style {
     font-family: 'Bebas Neue';
-    font-size: 1.875rem;
+    font-size: 1.5rem;
     color: #333333;
     text-decoration: none;
 }

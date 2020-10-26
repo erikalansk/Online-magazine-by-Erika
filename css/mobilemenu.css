@@ -6,16 +6,29 @@
     top: 0;
     background-color: white;
     padding-bottom: 5px;
-    border-bottom: 1px solid z-index: 9999;
+    border-bottom: 1px solid;
+    z-index: 9999;
 }
 
+nav{ 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+ }
+
 .mobileiconlabel {
-    display: inline-block;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* display: inline-block; */
     /*    color: #ffffff;*/
     /*    background: #a02620;*/
     font-style: normal;
     font-size: 1.2rem;
-    padding: 10px 5px;
+    padding: 0;
 }
 
 .menuitem {
@@ -47,11 +60,13 @@
 
 /* Display company logo to the right */
 .companylogo {
-    position: absolute;
-    top: 5px;
-    right: 56px;
+    display: block;
+    /* position: absolute; */
+    /* top: 5px; */
+    /* right: 56px; */
     align-content: center;
-    width: 168px;
+    /* width: 168px; */
+    /* height: 30px; */
 }
 
 
@@ -84,8 +99,8 @@
     }
 
     /* Display company logo to the left */
-    .companylogo {
+    /* .companylogo {
         left: 10px;
-    }
+    } */
 
 }
